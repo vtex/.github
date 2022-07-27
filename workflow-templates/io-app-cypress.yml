@@ -10,7 +10,7 @@ on:
 
 jobs:
   Cypress:
-    uses: vtex/action-io-app-cypress/.github/workflows/cypress.yml@main
+    uses: vtex/action-io-app-cypress/.github/workflows/cypress.yml@v1
     with:
       accounts: '["vtexgame1"]'
       parallel: true
