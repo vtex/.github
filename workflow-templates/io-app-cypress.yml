@@ -19,4 +19,3 @@ jobs:
       app-key: ${{ secrets.APP_KEY }}
       app-token: ${{ secrets.APP_TOKEN }}
       record-key: ${{ secrets.RECORD_KEY }}
-
