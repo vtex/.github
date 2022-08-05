@@ -1,0 +1,11 @@
+name: cabueta
+on:
+  workflow_dispatch:
+
+jobs:
+  cabueta:
+    uses: vtex/cabueta/.github/workflows/cabueta.yml@main
+    with:
+    secrets:
+      target_url: "http://URL_TO_THE_APPLICATION (e.g.: https://cabueta.com)"
+
